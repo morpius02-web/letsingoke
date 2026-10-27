@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "appUpdate": {
+    "versionCode": 416,
+    "versionName": "4.16.67",
+    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/4.16.67/app-release.apk",
+    "changelog": "• Same changelog and features as version 4.2.2.\n• Hotfix: Dpad navigation in Mic check.\n• If you have already installed 4.15.67, go to Settings > Check App Updates to update. No need to uninstall.",
+    "forceUpdate": true
+  },
+  "files": [
+    {
+      "folder": "sound",
+      "fileName": "soundfont.sf2",
+      "url": "https://github.com/jpdcs/SongHub-Android/releases/download/1.0.0/songhub.sf2",
+    },
+    {
+      "folder": "bgv/Nature",
+      "fileName": "Video1.mp4",
+      "url": "https://github.com/jpdcs/SongHub-Android/releases/download/1.0.0/Video1.mp4",
+    },
+    {
+      "folder": "bgv/Nature",
+      "fileName": "Video2.mp4",
+      "url": "https://github.com/jpdcs/SongHub-Android/releases/download/1.0.0/Video2.mp4",
+    },
+    {
+      "folder": "bgv/Nature",
+      "fileName": "Video3.mp4",
+      "url": "https://github.com/jpdcs/SongHub-Android/releases/download/1.0.0/Video3.mp4",
+    },
+    {
+      "folder": "bgv/Nature",
+      "fileName": "Video4.mp4",
+      "url": "https://github.com/jpdcs/SongHub-Android/releases/download/1.0.0/Video4.mp4",
+    },
+    {
+      "folder": "bgv/Motion",
+      "fileName": "motion1.mp4",
+      "url": "https://github.com/jpdcs/SongHub-Android/releases/download/1.0.0/motion1.mp4",
+    },
+    {
+      "folder": "bgv/Motion",
+      "fileName": "motion2.mp4",
+      "url": "https://github.com/jpdcs/SongHub-Android/releases/download/1.0.0/motion2.mp4",
+    },
+    {
+      "folder": "bgv/Motion",
+      "fileName": "motion3.mp4",
+      "url": "https://github.com/jpdcs/SongHub-Android/releases/download/1.0.0/motion3.mp4",
+    },
+    {
+      "folder": "bgv/Motion",
+      "fileName": "motion4.mp4",
+      "url": "https://github.com/jpdcs/SongHub-Android/releases/download/1.0.0/motion4.mp4",
+    },
+    {
+      "folder": "bgv/3D",
+      "fileName": "sayaw1.mp4",
+      "url": "https://github.com/jpdcs/SongHub-Android/releases/download/1.0.0/sayaw1.mp4",
+    },
+    {
+      "folder": "bgv/3D",
+      "fileName": "sayaw2.mp4",
+      "url": "https://github.com/jpdcs/SongHub-Android/releases/download/1.0.0/sayaw2.mp4",
+    },
+    {
+      "folder": "bgphoto",
+      "fileName": "1.jpg",
+      "url": "https://github.com/jpdcs/SongHub-Android/releases/download/1.0.0/1.jpg",
+    },
+    {
+      "folder": "bgphoto",
+      "fileName": "2.jpg",
+      "url": "https://github.com/jpdcs/SongHub-Android/releases/download/1.0.0/2.jpg",
+    },
+    {
+      "folder": "bgphoto",
+      "fileName": "3.jpg",
+      "url": "https://github.com/jpdcs/SongHub-Android/releases/download/1.0.0/3.jpg",
+    },
+        {
+      "folder": "idx",
+      "fileName": "shubidx",
+      "url": "https://github.com/jpdcs/SongHub-Android/releases/download/Songfile_47998/shubidx",
+    },
+    {
+      "folder": "idx",
+      "fileName": "shubblob",
+      "url": "https://github.com/jpdcs/SongHub-Android/releases/download/Songfile_47998/shubblob",
+    }
+  ]
+}
