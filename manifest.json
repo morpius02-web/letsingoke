@@ -1,10 +1,10 @@
 {
   "version": 1,
   "appUpdate": {
-    "versionCode": 416,
-    "versionName": "4.16.67",
-    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.2.4/LetSingOke.4.2.4.apk",
-    "changelog": "• Same changelog and features as version 4.2.4.\n• Hotfix: Dpad navigation in Mic check.\n• If you have already installed 4.15.67, go to Settings > Check App Updates to update. No need to uninstall.",
+    "versionCode": 425,
+    "versionName": "4.2.5",
+    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.2.5/LetSingOke.v4.2.5.apk",
+    "changelog": "• Same changelog and features as version 4.2.4.\n• Hotfix: Fixed the app crashing when Pitch Guide is turned on.\n• If you have already installed 4.2.4, go to Settings > Check App Updates to update. No need to uninstall.",
     "forceUpdate": true
   },
   "files": [
