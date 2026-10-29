@@ -1,10 +1,10 @@
 {
   "version": 1,
   "appUpdate": {
-    "versionCode": 428,
-    "versionName": "4.2.8",
-    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.2.8/LetSingOke.v4.2.8.apk",
-    "changelog": "• Same changelog and features as version 4.2.8 (updated from 4.2.5).\n• Hotfix: Fixed the app closing when you reopen the karaoke player after leaving it with Pitch Guide turned ON, and the pitch bar not coming back after returning to the player (including in the Pitch Perfect game).\n• Added Chibi Animation into Instrumentals — the chibi now dances during instrumental parts with a glow, equalizer bars and floating music notes.\n• If you have already installed 4.2.5, go to Settings > Check App Updates to update. No need to uninstall.",
+    "versionCode": 429,
+    "versionName": "4.2.9",
+    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.2.9/LetSingOke.v4.2.9.apk",
+    "changelog": "• Sound Engine: new Reverb slider for echo and a wider, fuller sound.\n• Sound Engine: new Chorus Level and Chorus Depth sliders for thicker, shimmering strings and synths.\n• Sound Engine: new Master Volume / Gain slider (0–200%) for the soundfont's overall loudness.\n• New Save and Cancel buttons, plus an Add Soundfont button to add .sf2 files right from the Sound Engine screen.\n• Sliders now change the sound live while Test Sound is playing.\n• Redesigned Sound Engine screen with a cleaner dark layout.\n• Full D-pad / TV remote support, with a highlight on the selected button or slider.\n• Test Sound now plays a slower, calmer song so the effects are easier to hear.\n• If you have already installed 4.2.8, go to Settings > Check App Updates to update. No need to uninstall.",
     "forceUpdate": true
   },
   "files": [
