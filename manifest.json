@@ -1,10 +1,10 @@
 {
   "version": 1,
   "appUpdate": {
-    "versionCode": 426,
-    "versionName": "4.2.6",
-    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.2.6/LetSingOke.v4.2.6.apk",
-    "changelog": "• Same changelog and features as version 4.2.4.\n• Hotfix: Fixed the app crashing when Pitch Guide is turned on.\n• Added Chibi Animation into Instrumentals.\n• If you have already installed 4.2.4, go to Settings > Check App Updates to update. No need to uninstall.",
+    "versionCode": 428,
+    "versionName": "4.2.8",
+    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.2.8/LetSingOke.v4.2.8.apk",
+    "changelog": "• Same changelog and features as version 4.2.8 (updated from 4.2.5).\n• Hotfix: Fixed the app closing when you reopen the karaoke player after leaving it with Pitch Guide turned ON, and the pitch bar not coming back after returning to the player (including in the Pitch Perfect game).\n• Added Chibi Animation into Instrumentals — the chibi now dances during instrumental parts with a glow, equalizer bars and floating music notes.\n• If you have already installed 4.2.5, go to Settings > Check App Updates to update. No need to uninstall.",
     "forceUpdate": true
   },
   "files": [
