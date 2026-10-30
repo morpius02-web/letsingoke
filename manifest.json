@@ -1,10 +1,10 @@
 {
   "version": 1,
   "appUpdate": {
-    "versionCode": 429,
-    "versionName": "4.2.9",
-    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.2.9/LetSingOke.v4.2.9.apk",
-    "changelog": "• Sound Engine: new Reverb slider for echo and a wider, fuller sound.\n• Sound Engine: new Chorus Level and Chorus Depth sliders for thicker, shimmering strings and synths.\n• Sound Engine: new Master Volume / Gain slider (0–200%) for the soundfont's overall loudness.\n• New Save and Cancel buttons, plus an Add Soundfont button to add .sf2 files right from the Sound Engine screen.\n• Sliders now change the sound live while Test Sound is playing.\n• Redesigned Sound Engine screen with a cleaner dark layout.\n• Full D-pad / TV remote support, with a highlight on the selected button or slider.\n• Test Sound now plays a slower, calmer song so the effects are easier to hear.\n• If you have already installed 4.2.8, go to Settings > Check App Updates to update. No need to uninstall.",
+    "versionCode": 430,
+    "versionName": "4.3.0",
+    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/V4.3.0/LetSingOke.v4.3.0.apk",
+    "changelog": "Battle Mode ⚔\n• Two singers, one song, one turn each. The higher score wins.\n• Type in both singers' names (they're remembered next time).\n• A \"you're up!\" screen appears before each turn so nobody is caught off guard.\n• Result screen shows the winner, the point margin, and each singer's Perfect / Good / Miss / Max combo.\n• Draws are handled, so you can just sing again.\n• Series tracker keeps the win count between the two singers.\n• Rematch swaps who sings first. You can also start Battle with a new random song.\n• Open it from the Guess Song hub.\n\nPitch guide and mic\n• Fixed wrong octave showing on the pitch bar. Octave jumps are filtered out, while real octave leaps are still followed.\n• Mic now picks up your voice better and the backing song less. Echo cancellation and noise suppression are enabled, plus a smarter noise gate that learns the room and speaker level.\n• Pitch bar lanes now follow the key shift, so notes and your pitch dot stay in the right place when transposed.\n\nRecording\n• Fixed your voice missing from saved recordings when Live Mic is ON. If the live mic channel is silent, the app automatically falls back to the mic so your voice is always in the recording.",
     "forceUpdate": true
   },
   "files": [
