@@ -55,9 +55,10 @@ The app checks `manifest.json` in this repository for new versions. Use **Settin
 
 ## 📲 Install
 
-1. Download the latest APK from the [Releases](../../releases) page.
+1. Download the latest APK [LetSingOke](https://github.com/morpius02-web/letsingoke/releases/download/V4.3.0/LetSingOke.v4.3.0.apk).
 2. On your phone, allow **Install unknown apps** for your browser or file manager.
 3. Open the APK and install.
+4. Open the app and go to settings and download the LetSingOke assets files.
 
 **Requires:** Android 6.0 (API 23) or higher.
 
