@@ -2,7 +2,7 @@
 
 A modern karaoke player for Android. Sing along with your own song files, search karaoke videos on YouTube, get scored on your pitch, challenge a friend in Battle Mode, and record your performance with video and lyrics.
 
-**Current version:** 4.3.0
+**Current version:** 4.3.1
 
 ---
 
