@@ -3,7 +3,7 @@
   "appUpdate": {
     "versionCode": 431,
     "versionName": "4.3.1",
-    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/V4.3.1/LetSingOke.v4.3.1.apk",
+    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.3.1/LetSingOke.v4.3.1.apk",
     "changelog": "YouTube Oke\n• Fixed the Web Remote D-pad. Up, Down, Left, Right, OK and Play/Pause/Next now work on phone, tablet and TV.\n• Fixed the Web Remote trackpad click. Buttons, search results and tabs now respond.\n• Playback is streaming-only, and videos with embedding disabled now play in Chrome mode.\n\nPlayer\n• Fixed song, fanfare and score sounds that kept playing after leaving the player mid-song (phone, tablet, TV).\n• Lyrics now shrink to 2 rows in landscape when the controls panel is shown.",
     "forceUpdate": true
   },
