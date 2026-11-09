@@ -6,7 +6,7 @@
     "forceUpdate": true,
     "changelog": "LetSingOke 4.4.0\n\nNEW\n- IPTV Oke: live TV channels from around the world, filter by country and category\n- Beat Drop Oke: hit the falling notes, every press plays the next melody note (1-2 players)\n- Pulse Oke: touch-rhythm game, tap, hold and slide with the song\n- Oke Arcade: one hub for all singer games\n- Tutorial mode in both rhythm games\n- Configure Controls: pick your own remote buttons per player\n- Share Center (TV): generate a song book and save it or your recorded videos to your phone with a QR code\n\nFIXED\n- Score and fanfare no longer play after exiting a song mid-way\n- YouTube Oke click and D-pad fixes"
   }
-}
+},
   "files": [
     {
       "folder": "sound",
