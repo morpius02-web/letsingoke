@@ -2,7 +2,7 @@
 
 A modern karaoke player for Android. Sing along with your own song files, search karaoke videos on YouTube, get scored on your pitch, challenge a friend in Battle Mode, play music mini games, watch movies and live TV, and record your performance with video and lyrics.
 
-**Current version:** 4.4.1
+**Current version:** 4.4.2
 
 ---
 
@@ -34,6 +34,7 @@ Browse, search, and watch movies and TV series.
 - **Scale option** in the player menu: Fit, Fill, or Stretch to your screen
 - Download titles for offline viewing
 - Fast, smooth browsing with instant loading from the last session and prefetching of details
+- **Faster first open:** Movie Oke is warmed up in the background shortly after the app starts
 - Full remote and D-pad support on TV
 
 ### 📺 IPTV Oke
@@ -93,7 +94,7 @@ The app checks `manifest.json` in this repository for new versions. Use **Settin
 
 ## 📲 Install
 
-1. Download the latest APK [LetSingOke](https://github.com/morpius02-web/letsingoke/releases/download/V4.4.1/LetSingOke.v4.4.1.apk).
+1. Download the latest APK [LetSingOke](https://github.com/morpius02-web/letsingoke/releases/download/v4.4.2/LetSingOke.v4.4.2.apk).
 2. On your phone, allow **Install unknown apps** for your browser or file manager.
 3. Open the APK and install.
 4. Open the app and go to settings and download the LetSingOke assets files.
@@ -125,9 +126,23 @@ The app checks `manifest.json` in this repository for new versions. Use **Settin
 The project is a decoded APK (apktool). To rebuild:
 
 ```bash
-apktool b <project-folder> -o LetSingOke-4.4.1.apk
+apktool b <project-folder> -o LetSingOke-4.4.2.apk
 # then zipalign and sign with your own keystore
 ```
+
+## ❤️ Support the Project
+
+LetSingOke is free. If you enjoy the app, any amount of support helps keep it free and updated. Maraming salamat!
+
+<p align="center">
+  <img src="https://github.com/morpius02-web/letsingoke/releases/download/assets/gcash_qr.png" alt="GCash donation QR code" width="280">
+</p>
+
+Open GCash on your phone, tap **Scan QR**, scan this code, and enter any amount. You can also take a screenshot of the QR and use **Upload QR** in GCash. You can open this same QR in the app with the **Support me** button.
+
+## 💬 Contact and Updates
+
+Follow the developer on Facebook for news, updates, and support: [JKRapada02](https://www.facebook.com/JKRapada02/)
 
 ## 🙏 Credits
 
