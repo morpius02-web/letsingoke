@@ -1,12 +1,11 @@
 {
   "appUpdate": {
-    "versionCode": 441,
-    "versionName": "4.4.1",
-    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.4.1/LetSingOke.v4.4.1.apk",
+    "versionCode": 442,
+    "versionName": "4.4.2",
+    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.4.2/LetSingOke.v4.4.2.apk",
     "forceUpdate": true,
-    "changelog": "LetSingOke 4.4.1\n\nNEW\n- IPTV Oke: live TV channels from around the world, filter by country and category\n- Beat Drop Oke: hit the falling notes, every press plays the next melody note (1-2 players)\n- Pulse Oke: touch-rhythm game, tap, hold and slide with the song\n- Oke Arcade: one hub for all singer games\n- Tutorial mode in both rhythm games\n- Configure Controls: pick your own remote buttons per player\n- Share Center (TV): generate a song book and save it or your recorded videos to your phone with a QR code\n\nFIXED\n- Score and fanfare no longer play after exiting a song mid-way\n- YouTube Oke click and D-pad fixes"
-
-},
+    "changelog": "LetSingOke 4.4.2\n\nNEW\n- Stream Oke: YouTube, live TV and movies in one hub\n- Movie Oke: movies and TV series with search, Continue Watching with auto-resume, subtitles, quality and speed controls, and downloads to watch later\n- YouTube Oke: karaoke search with quick picks, queue, favorites and playlists, multiple singers with Fair Turns\n- IPTV Oke: live channels from around the world, choose your countries, category filter and channel search\n- Web Remote, Oke Arcade (4 mini games), Rankings and Sound Engine"
+  },
   "files": [
     {
       "folder": "sound",
