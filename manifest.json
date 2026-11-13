@@ -1,10 +1,10 @@
 {
   "appUpdate": {
-    "versionCode": 442,
-    "versionName": "4.4.2",
-    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.4.2/LetSingOke.v4.4.2.apk",
+    "versionCode": 443,
+    "versionName": "4.4.3",
+    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.4.3/LetSingOke.v4.4.3.apk",
     "forceUpdate": true,
-    "changelog": "LetSingOke 4.4.2\n\nNEW\n- Stream Oke: YouTube, live TV and movies in one hub\n- Movie Oke: movies and TV series with search, Continue Watching with auto-resume, subtitles, quality and speed controls, and downloads to watch later\n- YouTube Oke: karaoke search with quick picks, queue, favorites and playlists, multiple singers with Fair Turns\n- IPTV Oke: live channels from around the world, choose your countries, category filter and channel search\n- Web Remote, Oke Arcade (4 mini games), Rankings and Sound Engine"
+    "changelog": "LetSingOke 4.4.3\n\nNEW\n- Arcade Oke: classic arcade and console games on your TV, with 5,000+ MAME titles, NES, GB/GBC/GBA and SNES support, plus 3 free NES games included\n- Ani Oke: anime and series playback with episodes, seasons, subtitles, audio tracks and quality selection\n- How to use: a complete in-app guide to every feature, now a tile on the home screen\n- Oke Arcade: new Retro arcade section with the Arcade Oke tile\n- Pitch Perfect: the song list now sits beside the cards, so you can pick a song with the remote without leaving the screen\n- Beat Drop Oke: built-in song panel inside the mode, with a quick sound toggle\n- IPTV Oke: channel cards with search and category filter, Philippine channels first\n- Movie Oke: poster previews while loading, English subtitles on by default, adaptive quality for low-RAM devices\n- YouTube Oke: automatic picture quality and faster search\n- Web Remote: new Arcade gamepad deck with landscape cabinet mode\n- Arcade Oke player settings: volume, shader, screen fit, FPS, fast-forward, VSync, save states, touch pad and key mapping"
   },
   "files": [
     {
