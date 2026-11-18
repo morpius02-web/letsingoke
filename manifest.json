@@ -2,7 +2,7 @@
   "appUpdate": {
     "versionCode": 444,
     "versionName": "4.4.4",
-    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.4.4/LetsSingOke.v4.4.4.apk",
+    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.4.4/LetSingOke.v4.4.4.apk",
     "forceUpdate": true,
     "changelog": "LetSingOke 4.4.4\n\nKaraoke Studio\n- New Melody key notes\n- Low keys below C\n- Score Line MP3 per tier\n- Portrait number keypad\n- SoundFont sealed\n\nKaraoke Player\n- Lite Mode on all devices\n- Smooth pitch-guide lyrics\n- Number key sounds\n- Slide controls panel\n- Faster song search\n\nStream Oke\n- YouTube Oke new UI\n- New service tiles\n- IPTV flag fix\n- Ani Oke buffer fix\n- Movie Oke performance\n\nOke Game\n- Arcade D-pad fixed\n- MAME 0.260 games\n- Working-only filter\n- Beat / Guess keys fixed\n\nSound Engine\n- App-only SoundFont\n- Key and tempo\n- Delete old banks\n- Melody voices\n\nSystem\n- About page\n- TV remote everywhere\n- On-demand permissions\n- Inline downloads\n- Cleaner text fit"
   },
