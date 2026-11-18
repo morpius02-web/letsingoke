@@ -1,18 +1,13 @@
 {
   "appUpdate": {
-    "versionCode": 443,
-    "versionName": "4.4.3",
-    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.4.3/LetSingOke.v4.4.3.apk",
+    "versionCode": 444,
+    "versionName": "4.4.4",
+    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.4.4/LetsSingOke.v4.4.4.apk",
     "forceUpdate": true,
-    "changelog": "LetSingOke 4.4.3\n\nNEW\n- Arcade Oke: classic arcade and console games on your TV, with 5,000+ MAME titles, NES, GB/GBC/GBA and SNES support, plus 3 free NES games included\n- Ani Oke: anime and series playback with episodes, seasons, subtitles, audio tracks and quality selection\n- How to use: a complete in-app guide to every feature, now a tile on the home screen\n- Oke Arcade: new Retro arcade section with the Arcade Oke tile\n- Pitch Perfect: the song list now sits beside the cards, so you can pick a song with the remote without leaving the screen\n- Beat Drop Oke: built-in song panel inside the mode, with a quick sound toggle\n- IPTV Oke: channel cards with search and category filter, Philippine channels first\n- Movie Oke: poster previews while loading, English subtitles on by default, adaptive quality for low-RAM devices\n- YouTube Oke: automatic picture quality and faster search\n- Web Remote: new Arcade gamepad deck with landscape cabinet mode\n- Arcade Oke player settings: volume, shader, screen fit, FPS, fast-forward, VSync, save states, touch pad and key mapping"
+    "changelog": "LetSingOke 4.4.4\n\nKaraoke Studio\n- New Melody key notes\n- Low keys below C\n- Score Line MP3 per tier\n- Portrait number keypad\n- SoundFont sealed\n\nKaraoke Player\n- Lite Mode on all devices\n- Smooth pitch-guide lyrics\n- Number key sounds\n- Slide controls panel\n- Faster song search\n\nStream Oke\n- YouTube Oke new UI\n- New service tiles\n- IPTV flag fix\n- Ani Oke buffer fix\n- Movie Oke performance\n\nOke Game\n- Arcade D-pad fixed\n- MAME 0.260 games\n- Working-only filter\n- Beat / Guess keys fixed\n\nSound Engine\n- App-only SoundFont\n- Key and tempo\n- Delete old banks\n- Melody voices\n\nSystem\n- About page\n- TV remote everywhere\n- On-demand permissions\n- Inline downloads\n- Cleaner text fit"
   },
   "files": [
-    {
-      "folder": "sound",
-      "fileName": "Live.HQ.Natural.SoundFont.GM.sf2",
-      "url": "https://github.com/morpius02-web/letsingoke/releases/download/assets/Live.HQ.Natural.SoundFont.GM.sf2",
-    },
-    {
+     {
       "folder": "bgv/Nature",
       "fileName": "nature1.mp4",
       "url": "https://github.com/morpius02-web/letsingoke/releases/download/assets/nature1.mp4",
