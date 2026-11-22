@@ -2,18 +2,19 @@
 
 A modern karaoke player for Android. Sing along with your own song files, search karaoke videos on YouTube, get scored on your pitch, challenge a friend in Battle Mode, play music mini games, play classic arcade games, watch movies and live TV, and record your performance with video and lyrics.
 
-**Current version:** 4.4.4 · versionCode 444
+**Current version:** 4.4.5 · versionCode 445
 
 ---
 
-## 🆕 What's new in 4.4.4
+## 🆕 What's new in 4.4.5
 
-- **Karaoke Studio** — New Melody key notes · Low keys below C · Score Line MP3 per tier · Portrait number keypad · SoundFont sealed
-- **Karaoke Player** — Lite Mode on all devices · Smooth pitch-guide lyrics · Number key sounds · Slide controls panel · Faster song search
-- **Stream Oke** — YouTube Oke new UI · New service tiles · IPTV flag fix · Ani Oke buffer fix · Movie Oke performance
-- **Oke Game** — Arcade D-pad fixed · MAME 0.260 games · Working-only filter · Beat / Guess keys fixed
-- **Sound Engine** — App-only SoundFont · Key and tempo · Delete old banks · Melody voices
-- **System** — About page · TV remote everywhere · On-demand permissions · Inline downloads · Cleaner text fit
+- **Melody Jukebox** — New music-only player with selectable melody voices, synced lyrics, volume control and playlists. Replaces the old Rankings tile on the home menu; rankings are still available from song search.
+- **Song search & playlists** — Search by title, artist or code from the song list and player side panel. Play Now, Play All, Reserve Song, Add to / Create / Delete Playlist, Recently Added, and a top-50 Rankings view.
+- **Stream Oke audio** — Loudness booster for YouTube Oke, Anioke, IPTV, Movie Oke and Native Player, with smooth limiting and no clipping. Media volume is pinned to max while streaming and restored on exit.
+- **IPTV Oke** — HLS streams now always run through hls.js so the loudness stage can reach them, with automatic fallback to the platform player if hls.js cannot handle a stream.
+- **Beat Drop Oke** — New search bar in the built-in song panel, plus improved D-pad navigation between the search field and song rows.
+- **TV navigation** — Sharper focus ring, reattached focus borders and more reliable D-pad movement across the menu, search and side panel.
+- **Privacy** — App data is no longer included in cloud or ADB backups (`allowBackup=false`).
 
 ---
 
@@ -23,6 +24,8 @@ A modern karaoke player for Android. Sing along with your own song files, search
 - Karaoke player with synced lyrics, countdown, and adjustable lyric font and shadow
 - Smooth lyric drop on Pitch Guide, then back to place when the guide is turned on
 - Built-in song library, with song search, new songs, rankings, and a song book
+- Search songs by title, artist or numeric code, with Recently Added and top-50 Rankings views
+- **Melody Jukebox** — music-only mode with melody voices (piano, guitar, flute, sax and more), adjustable melody volume, synced lyrics, and playlists you can create, add to and delete
 - Add your own songs and files by importing them
 - Singer 1 / Singer 2 modes for duets
 - Tempo, key, and lyric-sync adjustments during playback
@@ -45,6 +48,7 @@ Search karaoke videos on YouTube and queue them up.
 - Fast search: two requests instead of seven, with fallbacks only if both fail
 - True full view with the original logo, and no stutter after leaving full view
 - Cleaner playback: ad elements are hidden and skipped inside the player
+- **Loudness stage** — MSE/blob playback is boosted to match the rest of the app, without distortion; progressive cross-origin sources are left untouched to avoid silence
 
 ### 🍿 Movie Oke
 Browse, search, and watch movies and TV series.
@@ -69,9 +73,13 @@ Watch live channels with a country filter and full-screen playback.
 - **Philippine channels pinned to the top** (GMA, A2Z, Cinemo), with the Philippines list open by default
 - Server playlist and local channel list merged, with ClearKey stream handling
 - **Direct playback** — no relay server or PC needed, with an automatic fallback if a link drops
+- **HLS through hls.js** for readable audio and the shared loudness stage, with a fallback to the native player for streams hls.js cannot handle
 
 ### 🌐 Stream Oke
 Watch streamed video inside the app, with a hub for every source: YouTube Oke, IPTV Oke, Movie Oke and Ani Oke. Each service now has its own tile colour and top strip.
+- **Consistent volume across sources** — a soft-knee loudness stage (~+5 dB, no hard clipping) lifts streams to the level of the native player
+- Media volume is pinned to max while in a Stream Oke player and restored to the previous level when you leave
+- The booster only attaches to readable (same-origin or MSE blob) media, so cross-origin streams never go silent
 
 ### 🍥 Ani Oke
 Anime and series playback with the same player controls as the rest of Stream Oke.
@@ -79,12 +87,13 @@ Anime and series playback with the same player controls as the rest of Stream Ok
 - Subtitles and audio track selection per title
 - Quality selection, with **DASH and HLS** playback for smooth streaming
 - Buffer handoff fixed for sources that hide the stream behind a bridge URL
+- Loudness stage attaches once hls.js/dash.js feeds the element, so stream volume matches the karaoke player
 - Full remote control: play / pause, seek, subtitles, audio, quality, next episode
 
 ### 🎮 Oke Arcade
 Four music mini games, each playable on phone, tablet, and TV.
 - **Guess Song:** name the tune
-- **Beat Drop Oke:** a rhythm game for 1 or 2 players, Easy to Turbo difficulty, with Auto mode and a tutorial — now with a **built-in song panel** inside the mode
+- **Beat Drop Oke:** a rhythm game for 1 or 2 players, Easy to Turbo difficulty, with Auto mode and a tutorial — now with a **built-in song panel** inside the mode and a **search bar** for title or artist
 - **Pulse Oke:** a touch rhythm game with Easy to Fast difficulty, random song, and a tutorial
 - **Pitch Perfect:** match the pitch, practice a specific part, or sing the full song — with the **song list beside the cards**, walkable with the D-pad
 - TV D-pad codes are normalised for every game, so answers and menus work with a real remote
@@ -159,10 +168,10 @@ Control the app from a phone or any browser on the same network, and use your ph
 A complete guide to every feature, built into the app — 14 sections, from adding your first song to troubleshooting. Always the last tile on the home screen.
 
 ### ℹ️ About
-A themed About card on the home header shows the real installed version (`4.4.4`, build `444`) read from the package manager, plus credits and a link to support.
+A themed About card on the home header shows the real installed version (`4.4.5`, build `445`) read from the package manager, plus credits and a link to support.
 
 ### 📺 TV friendly
-Works with remote and D-pad navigation on Android TV, TV boxes, and projectors. Devices without a touchscreen are treated as a TV automatically. TV key codes now work in every web page and every game, not just the native screens.
+Works with remote and D-pad navigation on Android TV, TV boxes, and projectors. Devices without a touchscreen are treated as a TV automatically. TV key codes now work in every web page and every game, not just the native screens. Focus borders and D-pad movement are re-synced across the menu, search screens and side panel.
 
 ### 🔄 Updates
 The app checks `manifest.json` in this repository for new versions (the `appUpdate` object: `versionCode`, `versionName`, `apkUrl`, `forceUpdate`, `changelog`). Use **Settings → Check for a newer version of LetSingOke**.
@@ -171,7 +180,7 @@ The app checks `manifest.json` in this repository for new versions (the `appUpda
 
 ## 📲 Install
 
-1. Download the latest APK [LetSingOke](https://github.com/morpius02-web/letsingoke/releases/download/v4.4.4/LetSingOke.v4.4.4.apk).
+1. Download the latest APK [LetSingOke](https://github.com/morpius02-web/letsingoke/releases/download/v4.4.5/LetSingOke.v4.4.5.apk).
 2. On your phone, allow **Install unknown apps** for your browser or file manager.
 3. Open the APK and install.
 4. Open the app and go to settings and download the LetSingOke assets files.
@@ -192,7 +201,7 @@ The app checks `manifest.json` in this repository for new versions (the `appUpda
 | Notifications / Foreground service | Keeps the app running during playback and remote sessions |
 | Install packages | Installing updates |
 
-Permissions are requested when the feature is used, not all at first launch.
+Permissions are requested when the feature is used, not all at first launch. App data is no longer included in device backups as of 4.4.5.
 
 ## 🛠 Tips
 
@@ -202,6 +211,7 @@ Permissions are requested when the feature is used, not all at first launch.
 - **Lyrics jump when Pitch Guide turns on?** The transition is now animated — leave it on for a moment.
 - **Movie Oke search not working?** Check your internet connection and the device date and time, then try again.
 - **Video does not fill the screen?** Open the player menu and change **Scale** to Fill or Stretch.
+- **Stream Oke sounds quiet?** Media volume is raised automatically while streaming and restored when you leave; check the device media volume inside the player.
 - **An arcade game will not start?** Arcade sets must match the selected core — re-download it with **Get games**.
 - **Arcade game runs slow?** Turn on Lite Mode, close other apps, and keep save states on internal storage rather than a slow USB stick.
 
@@ -210,7 +220,7 @@ Permissions are requested when the feature is used, not all at first launch.
 The project is a decoded APK (apktool). To rebuild:
 
 ```bash
-apktool b <project-folder> -o LetSingOke-4.4.4.apk -f
+apktool b <project-folder> -o LetSingOke-4.4.5.apk -f
 # then zipalign and sign with your own keystore
 ```
 
@@ -220,8 +230,8 @@ The version lives in `apktool.yml`:
 
 ```yaml
 versionInfo:
-  versionCode: 444
-  versionName: 4.4.4
+  versionCode: 445
+  versionName: 4.4.5
 ```
 
 > The bundled SoundFont is sealed to the signing certificate. If you re-sign with a different keystore, rebuild the bank with that certificate or the Sound Engine will refuse to open it.
