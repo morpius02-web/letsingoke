@@ -1,10 +1,10 @@
 {
   "appUpdate": {
-    "versionCode": 444,
-    "versionName": "4.4.4",
-    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.4.4/LetSingOke.v4.4.4.apk",
+    "versionCode": 445,
+    "versionName": "4.4.5",
+    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.4.5/LetSingOke.v.4.4.5.apk",
     "forceUpdate": true,
-    "changelog": "LetSingOke 4.4.4\n\nKaraoke Studio\n- New Melody key notes\n- Low keys below C\n- Score Line MP3 per tier\n- Portrait number keypad\n- SoundFont sealed\n\nKaraoke Player\n- Lite Mode on all devices\n- Smooth pitch-guide lyrics\n- Number key sounds\n- Slide controls panel\n- Faster song search\n\nStream Oke\n- YouTube Oke new UI\n- New service tiles\n- IPTV flag fix\n- Ani Oke buffer fix\n- Movie Oke performance\n\nOke Game\n- Arcade D-pad fixed\n- MAME 0.260 games\n- Working-only filter\n- Beat / Guess keys fixed\n\nSound Engine\n- App-only SoundFont\n- Key and tempo\n- Delete old banks\n- Melody voices\n\nSystem\n- About page\n- TV remote everywhere\n- On-demand permissions\n- Inline downloads\n- Cleaner text fit"
+    "changelog": "LetSingOke 4.4.5\n\nNew: Melody Jukebox\n- Dedicated music-only player on the home menu\n- Pick a song and switch between melody voices (piano, guitar, flute, sax and more)\n- Follow synced lyrics\n- Adjust melody volume\n- Build playlists\n\nSmarter song search & playlists\n- Search by title, artist, or song code from the song list and player side panel\n- New actions: Play Now, Play All, Reserve Song, Add to/Create/Delete Playlist\n- Recently Added\n- Rankings view with the top 50 scores (via the RANKINGS button in song search)\n\nLouder, cleaner Stream Oke audio\n- YouTube Oke, Anioke, IPTV, Movie and Native Player streams get a smooth loudness boost without distortion\n- Media volume is pinned to max while streaming and restored when you leave\n- HLS playback tuned so certain channels no longer come out silent\n\nBetter TV remote navigation\n- Sharper focus ring and more reliable D-pad movement across menu, search, and side panel"
   },
   "files": [
      {
