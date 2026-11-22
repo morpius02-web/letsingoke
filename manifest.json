@@ -1,7 +1,7 @@
 {
   "appUpdate": {
-    "versionCode": 445,
-    "versionName": "4.4.5",
+    "versionCode": 444,
+    "versionName": "4.4.4",
     "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.4.5/LetSingOke.v.4.4.5.apk",
     "forceUpdate": true,
     "changelog": "LetSingOke 4.4.5\n\nNew: Melody Jukebox\n- Dedicated music-only player on the home menu\n- Pick a song and switch between melody voices (piano, guitar, flute, sax and more)\n- Follow synced lyrics\n- Adjust melody volume\n- Build playlists\n\nSmarter song search & playlists\n- Search by title, artist, or song code from the song list and player side panel\n- New actions: Play Now, Play All, Reserve Song, Add to/Create/Delete Playlist\n- Recently Added\n- Rankings view with the top 50 scores (via the RANKINGS button in song search)\n\nLouder, cleaner Stream Oke audio\n- YouTube Oke, Anioke, IPTV, Movie and Native Player streams get a smooth loudness boost without distortion\n- Media volume is pinned to max while streaming and restored when you leave\n- HLS playback tuned so certain channels no longer come out silent\n\nBetter TV remote navigation\n- Sharper focus ring and more reliable D-pad movement across menu, search, and side panel"
