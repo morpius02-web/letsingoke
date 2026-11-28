@@ -1,11 +1,11 @@
 {
   "appUpdate": {
-    "versionCode": 446,
-    "versionName": "4.4.6",
-    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.4.6/LetSingOke.v4.4.6.apk",
+    "versionCode": 447,
+    "versionName": "4.4.7",
+    "apkUrl": "https://github.com/morpius02-web/letsingoke/releases/download/v4.4.7/LetSingOke.v4.4.7.apk",
     "forceUpdate": true,
-    "changelog": "LetSingOke 4.4.6\n\nKaraoke Player\n- Red button on the TV remote opens the Search panel; Home Red no longer opens Song Search\n- Search: keyboard no longer fullscreen, Backspace works, dialog closes after Play\n- Fixed stuck tab highlight and the white focus border\n- New Playlist manager: scroll, remove, reorder, Select, Reserve, random, Rename, Delete\n\nMelody Jukebox\n- Readable lyrics, volume distortion fixed, full song with intro, one-tap play\n- Queue tab, Play next, Add to playlist from the menu, Play all and Shuffle\n- Playlist: no duplicates, reorder, remove with Undo, Rename, Delete\n- Rebuilt UI with icons, TV-sized, better D-pad control\n\nOther fixes\n- Updater opens the Get Files page\n- TV keyboard fixed in IPTV, Movie and Ani Oke; IPTV country picker highlight\n- Playlists shared across Song Search, Player and Jukebox\n- How to use updated"
-  },
+    "changelog": "What's New in v4.4.7\n\nBug Fixes\n\nFixed the search bar issue in Soundfont Studio, Ani Oke, Movie Oke and IPTV Oke.\nFixed the Movie Oke server issue.\n\nNew\n\nCustom keyboard on Android TV devices.\nNew UI design for Ani Oke and Movie Oke.\nRemote app: you can download it from the Web Remote tile."
+},
   "files": [
      {
       "folder": "bgv/Nature",
